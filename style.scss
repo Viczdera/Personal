@@ -1,0 +1,36 @@
+$width : 600px;
+
+@media screen and (max-width:$width) {
+  #contact{
+    display: none;
+  }
+
+}
+
+@media screen and (min-width:$width) {
+  #contact-buttom,#contact-pages{
+    display: none;
+  }
+
+}
+@media screen and (max-width:$width) {
+  #contact-buttom-large{
+    display: none;
+  }
+}
+
+@media screen and (max-width:300px) {
+  .line{
+    display: none;
+  }
+
+}
+
+a.active{
+  color: black;
+}
+
+
+a.int{
+  padding: 0px;
+}
