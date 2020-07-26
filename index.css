@@ -12,6 +12,7 @@ ul{
   top: 0;
   overflow: hidden;
   text-align: center; /* Important for centering */
+  display:table;
   margin: 0; /* Important for centering */
   padding: 0;
   display:inline-block; /* may change back to table */
@@ -72,7 +73,8 @@ div.career,div.interests, div.hobbies, #contact-buttom{
 }
 
 
-  
+}
+
 .me-right{
   float: right;
 
