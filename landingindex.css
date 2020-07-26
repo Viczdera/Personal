@@ -3,6 +3,7 @@
     height: 5px;
     background-color:#EEF3F6;
     margin: 0;
+    padding: 0;
     
     
 }
@@ -40,6 +41,8 @@ div#main{
     background-image: url(./texture.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
 body{
