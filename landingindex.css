@@ -21,6 +21,11 @@ ul{
     display:inline-block; /* may change back to table */
   }
 
+.vpcontainer{
+      padding-top: 15px;
+      padding-bottom: 10px;
+  }
+
   .vp{
       float: left;
   }
@@ -38,11 +43,30 @@ ul{
 div#main{
     width: 100%;
     height: 400px;
-    background-image: url(./texture.jpg);
+    background-image: url(./texture.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
+    padding-top: 80px;
+    padding-bottom: 0;
+/*
+ display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+*/
+   
+}
+
+div.wow{
+    width: 70%;
+    height: 400px;
+    background-color: white;
+
+    margin: 0 auto; /*important for centering*/
+  /*  position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,50%); */
 }
 
 body{
@@ -53,9 +77,15 @@ body{
 div.contact{
     width: 100%;
     height: 40px;
-    background-color: crimson;
+    background-color: #EEF3F6/*#457564*/;
     display: inline-block;
     margin: 0;
+    text-align: center;
 
+}
+
+.contacts a{
+    display:block;
+    padding-top: 10px ;
 }
 

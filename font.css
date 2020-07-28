@@ -1,6 +1,11 @@
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  text-align: center; }
+  text-align: center; 
+  background-image: url("./texture.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+}
 
 .p-bottom, h4, a {
   color: #457564; }
