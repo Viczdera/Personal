@@ -64,6 +64,13 @@ div#main{
     }
 }
 
+@media screen and (min-width:800px){
+    div#main{
+        height: 900px;
+       
+    }
+}
+
 @media screen and (max-width:400px){
     div#main{
         height:250px;
@@ -92,16 +99,24 @@ div#main{
          height: 800px;
      }
      
- }
+}
 
- @media screen and (max-width:400px){
+
+@media screen and (min-width:800px){
     .wow{
-        height:250px;
+        height: 900px;
        
     }
 }
- 
 
+
+@media screen and (max-width:400px){
+   .wow{
+       height:250px;
+      
+   }
+ 
+}
 
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -121,5 +136,6 @@ div.contact{
 .contacts a{
     display:block;
     padding-top: 10px ;
+    
 }
 
