@@ -19,33 +19,35 @@ ul{
     margin: 0; /* Important for centering */
     padding: 0;
     display:inline-block; /* may change back to table */
-  }
+}
 
 .vpcontainer{
       padding-top: 15px;
       padding-bottom: 10px;
-  }
+}
 
-  .vp{
+.vp{
       float: left;
-  }
+}
 
-  li{
+li{
       display: inline-block;
       padding-left: 25px;
       padding-right: 25px;
-  }
+}
 
-  a{
+a{
       text-decoration: none;
-  }
+}
+
+img.me{
+    width: 100%;
+}
+  
 
 div#main{
     width: 100%;
-    height: 400px;
-    background-image: url(./texture.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    height:400px;
    /* padding-top: 80px; */
     padding-bottom: 0;
 /*
@@ -54,12 +56,14 @@ div#main{
     align-items: center;
     justify-content: center;
 */
-   
 }
 
-@media screen and (min-width:600px){
+
+/*
+
+@media screen and (min-width:550px){
     div#main{
-        height: 800px;
+        height: 600px;
        
     }
 }
@@ -71,16 +75,16 @@ div#main{
     }
 }
 
+
 @media screen and (max-width:400px){
     div#main{
         height:250px;
        
     }
 }
-     
+*/
 
-
-
+/*
 .wow{
     width: 100%;
     height: 400px;
@@ -89,34 +93,38 @@ div#main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+       margin: 0 auto;*/
     /*background-color:rgb(255, 134, 134);
     */
-    margin: 0 auto; /*important for centering*/
+ 
+    
+    /*important for centering*/
   /*  position: absolute;
     bottom: 50%;
     left: 50%;
     transform: translate(-50%,50%); */
-}
 
-.me{
+
+/*.me{
     height: 400px;
     width: 100%;
 
     position: relative;
     text-align: center;
-
 }
+*/
 
-.me0{
+
+/*.me0{
     position: absolute;
     top: 50%;
     left: 50%;
 
     transform: translate(-50%, -50%);
 }
-
+*/
 @media screen and (min-width:600px){
-    .wow,.me{
+    .wow{
          height: 800px;
      }
      
@@ -142,6 +150,12 @@ div#main{
 body{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
+}
+
+
+
+p{
+    color: white;
 }
 
 div.contact{
