@@ -50,36 +50,16 @@ a{
 }
   
 
-div#main{
-
-    background-image: url("./texture.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-
-    width: 100%;
-    height:400px;
-    padding: 70px 0;
-    text-align: center;
-
-   /* padding-top: 80px; */
-   =
-/*
- display: flex;
-    display: -webkit-flex;
-    align-items: center;
-    justify-content: center;
-*/
-}
 
 div.white{
     width: 80%;
-    height: 400px;
+    height: fit-content;
     background-color: white;
     margin: auto;
     padding: 20px 0;
     text-align: center;
     background-repeat: no-repeat;
-    overflow: scroll;
+
 }
 
 
@@ -108,31 +88,6 @@ div.white{
 }
 
 
-
-
-@media screen and (min-width:550px){
-    div.white{
-         height: 600px;
-     }
-     
-}
-
-
-@media screen and (min-width:800px){
-    div.white{
-        height: 900px;
-       
-    }
-}
-
-
-@media screen and (max-width:400px){
-   div.white{
-       height:250px;
-      
-   }
- 
-}
 
 
 
@@ -192,6 +147,11 @@ div.contact{
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     text-align: center; 
     color: black;
+    
+    background-image: url("./texture.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
   
  
