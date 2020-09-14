@@ -133,6 +133,11 @@ div.contact{
   
   
   }
+  .grnline{
+      width: 100%;
+      height: 2px;
+      background-color: #26513dff;
+  }
   
   
   .p-bottom{
