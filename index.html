@@ -8,11 +8,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
     <link rel="stylesheet" href="landingindex.css">
+    <script src="cv.js"></script>
 </head>
 <body>
-    <div class="top">
-        
-    </div>
+    <div class="top"></div>
 
     <ul>
 
@@ -23,24 +22,23 @@
         
         <div class="vpcontainer">
             <li class="vp">
-                <header id="victorspg">
+                <header id="victorspg"><a class="victorspg" href="index.html">
                   VICTOR'S PAGE
+                </a>
                 </header>
             </li>
             
-    
-            <li ><a href="index.html">Home</a>
+            <li class="topli" id="mrght"><a href="index.html#contact"> Contact</a>
             </li>
-            <li><a href="index.html"> About Me</a>
-            </li>
-            <li><a href="index.html"> Contact</a>
+            <li class="topli"><a href="index.html#interests"> Interests</a>
             </li> 
-    
-
+            <li class="topli"><a href="index.html#education"> Education</a>
+            </li>
         </div>
-        <div class="grnline"></div>
+        
         
     </ul>
+   
     <!-- HELLO
       <p> -I'M VICTOR-</p>
   -->
@@ -53,29 +51,34 @@
 
       <p class="so">So Here's What I'm All About.</p>
       <div class="career">
-        <img class="me-left" src="./Images/pics.png" alt="" width="100px" ><img class="line" src="line.png" alt="" ><img class="me0" src="robo.png" alt="" width="100px" >
+        <img class="me-left" src="code.png" alt="" width="100px" ><img class="line" src="line.png" alt="" ><img  src="./Images/pics.png" alt="" width="100px" >
       </div>
+      <br>
 
-         <h4>CAREER PATH</h4>
-         <p class="mb-0">I am currently a student engineer aspiring to become a mechatronics engineer. I study at Afe Babalola University, Ado-Ekiti.
-           Well, <a class="int" href="career.html#more1">more</a>
-         </p>
+         <p class="mb-0">I am a young and ever learning web developer offering enthusiasm and understanding
+           of various programming languages such as HTML, CSS, JAVASCRIPT and also s bit of understanding in KOTLIN as I have engaged in some project with that.
+            I have good experience in building responsive websites and I work with version control using git.
+         </p><br>
 
 
-         <div class="interests">
-             <img class="code" src="code.png" alt="" width="100px" ><img class="line" src="line.png" alt="" ><img class="me-right" src="me.png" alt="" width="100px" >
+         <div id="education">
+             <img class="code" src="me.png" alt="" width="100px" ><img class="line" src="line.png" alt="" ><img class="me-right" src="robo.png" alt="" width="100px" >
          </div>
-            <h4>INTERESTS</h4>
-            <p class="mb-0">Basically, I love tech. I am talking smartphones, next gen laptops, mobile applications, smart technologies being employed in cars, homes, machines etc. and most importantly, web and android development.See what I love. <a class="int" href="interests.html#more1">more</a>
-            </p>
+            <h4>EDUCATION</h4>
+            <p  class="mb-0"> I am currently a student engineer aspiring to become a mechatronics engineer. I study at Afe Babalola University, Ado-Ekiti..
 
-            <div class="hobbies">
-              <img class="me-left" src="me.png" alt="" width="100px" ><img class="line" src="line.png" alt="" ><img class="game" src="game.png" alt="" width="100px" >
+              Well I had various reasons for choosing this course and the major reason was because automation is taking over the world. I mean, look around; you got smart machines every where now.
+               I want to be a part of that. Another reason was because of my interest in programming. Well in that aspect, I was pretty unstable for a while. 
+               I really liked programming but also loved little machines and robots and the fact that mechatronics pretty much combines them both was absolutely amazing. </p><br>
+
+            <div id="interests">
+              <img class="me-left" src="game.png" alt="" width="100px" ><img class="line" src="line.png" alt="" ><img class="game" src="me.png" alt="" width="100px" >
             </div>
 
-               <h4>HOBBIES</h4>
+               <h4>INTERESTS</h4>
                <p class="mb-0"> I am a movie, series and anime guy. I enjoy watching movies a lot and particularly those with action, sci-fi, animation and comedy genre. Not really a fan of drama and romance.
-              So, if im indoors that will basically be what ill be doing along with some snacks during my free time. <a class="int" href="hobbies.html#more3">more</a>
+              So, if im indoors that will basically be what ill be doing along with some snacks during my free time. 
+              I also enjoy a bunch of other things such as gaming, cycling and playing table tennis ( was a champ back in high school ). Cycling and table tennis are basically the sports I enjoy.
                </p>
 
 
@@ -88,33 +91,82 @@
 
     <div class="grnline"></div>
 
-    <div >
-        <p><a href="https://www.instagram.com/veiz_dee/"><img  src="insta.png" alt="" width="17%" ></a>
-         <a href="https://viczuchi@gmail.com"><img  src="mail.png" alt="" width="20%" ></a></P>
-        <p><a href="https://www.facebook.com/chidera.victor.5074"><img src="facbk.png" alt="" width="18%" ></a>
-        <a href="https://vichizsoft@yahoo.com"><img  src="yahoo.png" alt="" width="20%" ></a></p>
-        <p>For Official discussions, I would prefer the mail.</p>
-        <p>For a more friendly chat, feel free to hit me on instagram.</p>
+
+    <!--
+    <div class="imagerow">
+      <div class="imagecolumn">
+        <img class="gallery" src="./Images/FB_IMG_1581788450366.jpg" alt="" 
+         onclick="openModal();">
       </div>
 
+      <div class="imagecolumn">
+        <img class="gallery" src="./Images/FB_IMG_1581788394712.jpg" alt=""
+        onclick="openModal();">
+      </div>
+      <div class="imagecolumn">
+        <img class="gallery" src="./Images/FB_IMG_1581788369627.jpg" alt="" 
+        onclick="openModal();">
+      </div>
 
-       
-   
+      <div class="imagecolumn">
+        <img class="gallery" src="./Images/FB_IMG_1579624105526.jpg" alt="" 
+        onclick="openModal();">
+      </div>
 
-    
-
-    <div class="contact">
-
-        
+      <div class="imagecolumn">
+        <img class="gallery" src="./Images/FB_IMG_1579624100169.jpg" alt="" 
+        onclick="openModal();">
+      </div>
 
     </div>
+  -->
+  <div style="text-align:center">
+    <h2>Gallery</h2>
+    <p>Click on :</p>
+  </div>
+  
+  <!-- The four columns -->
+  <div class="row">
+    <div class="column">
+      <img src="./Images/FB_IMG_1579624100169.jpg" alt="Matriculation" style="width:80%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./Images/FB_IMG_1581788369627.jpg" alt="Paintball" style="width:80%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./Images/FB_IMG_1581788450366.jpg" alt="Luncheon" style="width:106%" onclick="myFunction(this);">
+    </div>
+    <div class="column">
+      <img src="./Images/FB_IMG_1581788501728.jpg" alt="With Dad" style="width:80%" onclick="myFunction(this);">
+    </div>
+  </div>
+  
+  <div class="container">
+    <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+    <img id="expandedImg" style="width:100%">
+    <div id="imgtext"></div>
+  </div>
+
+  
+    
+
+  <ul id="contact" >
+   <li class="contactli">
+    <img class="leftimg" src="./gmaildk.png" alt=""><a class="contact" href="https://vichizsoft@yahoo.com/">vichizsoft@yahoo.com</a>
+    <img class="rightimg" src="./instadk.png" ><a class="contact" href="https://www.instagram.com/veiz_dee/">instagram</a>
+  </li>
+  
+  
+  </ul>
 
 
 
+  <script src="cv.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+ 
  
 
 </body>
