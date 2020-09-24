@@ -39,6 +39,7 @@ ul{
 .vp{
       float: left;
       list-style: none;
+      margin-left: 8px;
 }
 
 li.topli{
@@ -66,6 +67,59 @@ li.topli{
     border-bottom-right-radius: 10px;
 }
 
+/*side panel*/
+.sidepanel  {
+    opacity:0.9;
+    width: 0;
+    position: fixed;
+    height: 200px;
+    top: 10px;
+    right: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #5f4345e8;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color:#6393a2ff;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #5f4345e8;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    display: inline-block;
+    float: right;
+    margin-bottom: 7px;
+    margin-top: -9px;
+    margin-right: 8px;
+  }
+  
+  .openbtn:hover {
+    background-color:black;
+  }
+
+
 
 div.white{
     width: 81.55%;
@@ -81,48 +135,23 @@ div.white{
 
 
 
+
 @media screen and (min-width:550px){
-    div#main{
-        height: 600px;
-       
-    }
-}
-
-@media screen and (min-width:800px){
-    div#main{
-        height: 900px;
-       
+    .openbtn,.sidepanel{
+        display: none;
     }
 }
 
 
-@media screen and (max-width:400px){
-    div#main{
-        height:250px;
+@media screen and (max-width:550px){
+    li.topli{
+        display: none;
        
     }
 }
 
 
-/*Picture Gallery
-*{
-    box-sizing: border-box;
-}
-img.gallery{
-    margin-bottom: 0;
-    width: 100%;
-}
-.imagerow>.imagecolumn{
-    padding: 0 8px;
-}
-.imagerow::after{
-    display: table;
-    content:"";
-    clear: both;   
-}.imagecolumn{
-    float: left;
-    width: 15%;
-}*/
+/*Picture Gallery*/
 * {
     box-sizing: border-box;
   }
